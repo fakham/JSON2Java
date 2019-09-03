@@ -1,0 +1,35 @@
+{
+  "name": "ClassName",
+  "type": "object",
+  "properties": {
+    "foo": {
+      "type": "string"
+    },
+    "bar": {
+      "type": "integer"
+    },
+    "baz": {
+      "type": "boolean"
+    }
+  },
+  "functions": [
+    {
+      "name": "functionName",
+      "returnType": "void",
+      "arguments": [
+        {
+          "name": "arg1",
+          "type": "int"
+        },
+        {
+          "name" : "arg2",
+          "type" : "char"
+        },
+        {
+          "name" : "arg3",
+          "type" : "String"
+        }
+      ]
+    }
+  ]
+}
